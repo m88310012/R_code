@@ -5,8 +5,8 @@
 # You can learn more about package authoring with RStudio at:
 #
 #   http://r-pkgs.had.co.nz/
-#
 
+install.packages(sf)
 require(sf)
 
 ocean <- function(lon,lat){
