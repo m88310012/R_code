@@ -5,9 +5,6 @@
 # You can learn more about package authoring with RStudio at:
 #
 #   http://r-pkgs.had.co.nz/
-options(repos="https://cloud.r-project.org/")
-if (!require('pacman')) install.packages('pacman')
-p_load(sf, GEOS, GDAL, PROJ)
 ocean <- function(lon,lat){
   #PAC
   p1 = list(rbind(c(-180,-70),c(-70,-70),c(-70,5),c(-77,7.75),c(-79,9.25),c(-81,8.5),c(-82,8.5),c(-91,17.5),c(-101,17.5),c(-101,70),c(-180,70),c(-180,-70)))
