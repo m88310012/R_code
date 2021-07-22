@@ -5,9 +5,6 @@
 # You can learn more about package authoring with RStudio at:
 #
 #   http://r-pkgs.had.co.nz/
-options(repos="https://cloud.r-project.org/")
-if (!require('sf')) install.packages('sf')
-require(sf)
 
 ocean <- function(lon,lat){
   #PAC
