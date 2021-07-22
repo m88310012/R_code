@@ -7,8 +7,6 @@
 #   http://r-pkgs.had.co.nz/
 #
 
-options(repos="https://cloud.r-project.org/")
-if (!require('sf')) install.packages('sf')
 require(sf)
 
 ocean <- function(lon,lat){
