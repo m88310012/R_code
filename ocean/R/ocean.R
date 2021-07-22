@@ -6,7 +6,7 @@
 #
 #   http://r-pkgs.had.co.nz/
 
-install.packages(sf)
+if (!require('sf')) install.packages('sf')
 require(sf)
 
 ocean <- function(lon,lat){
